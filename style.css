@@ -1,0 +1,106 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  color: #333;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header styles */
+header {
+  margin-bottom: 40px;
+}
+
+header h1 {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+header p {
+  font-size: 1.2em;
+  color: #777;
+}
+
+header nav a {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: #007acc;
+}
+
+/* Profile styles */
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.about {
+  max-width: 600px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* Button styles */
+.buttons {
+  margin-top: 40px;
+}
+
+.btn {
+  display: inline-block;
+  width: 120px;
+  padding: 10px 20px;
+  margin: 10px;
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.green {
+  background-color: #a3d977;
+}
+
+.orange {
+  background-color: #f5b741;
+}
+
+.blue {
+  background-color: #5bc4cf;
+}
+
+.gray {
+  background-color: #ccc;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+
+  
+  
